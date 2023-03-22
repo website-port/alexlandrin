@@ -2324,7 +2324,8 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1800px) {
   .hero-content h1 {
-    font-size: 6.3rem;
+    font-size: 6rem;
+    padding-top: 3.2rem;
   }
 
   .hero-content h1::before {
