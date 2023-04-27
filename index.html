@@ -1,433 +1,850 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
-    <head>
+<head>
+    <meta charset="utf-8">
 
-        <!--- basic page needs
-        ================================================== -->
-        <meta charset="utf-8">
-        <title>Njonkoua Landrin | Brand Designer</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
-    
-        <!-- mobile specific metas
-        ================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- CSS
-        ================================================== -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/vendor.css">
-    
-        <!-- script
-        ================================================== -->
-        <script src="js/modernizr.js"></script>
-    
-        <!-- favicons
-        ================================================== -->
-        <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-	    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	    <link rel="manifest" href="favicons/manifest.json">
-	    <meta name="msapplication-TileColor" content="#ffffff">
-	    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	    <meta name="theme-color" content="#ffffff">
-    
-    </head>
+    <!-- Page Title -->
+    <title>Home - Alex Landrin</title>
+    <!--/ Page Title -->
 
-<body id="top">
+    <meta name="author" content="Pe Themes">
+    <meta name="description" content="Creative Portfolio & Agency Template">
+    <meta name="keywords" content="portfolio, agency, personal, creative">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <!--/ Favicons -->
+</head>
 
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+<body data-barba="wrapper" data-cursor="true" data-header-sticky="true" data-menu-style="overlay" data-page-layout="dark" data-header-layout="light" data-menu-layout="dark" data-footer-layout="dark" data-page-loader="true">
+
+    <!--Page Loader-->
+    <div data-duration="1" class="alioth-page-loader" data-layout="dark">
+
+        <span class="apl-background"></span>
+
+        <!--Loader Percentage (Don't Touch)-->
+        <div class="apl-count"></div>
+        <!--Loader Percentage (Don't Touch)-->
+
     </div>
+    <!--/Page Loader-->
 
+    <!--Page Transitions-->
+    <div class="alioth-page-transitions" data-layout="dark">
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+        <!--Transition Background (Don't touch)-->
+        <span class="apt-bg"></span>
+        <!--/Transition Background (Don't touch)-->
 
-        <div class="header-logo">
-            <a href="index.html">
-                <img src="images/landrin.svg" alt="Homepage">
-            </a>
+        <!--Transition Text-->
+        <div class="trans-text">Loading, please wait..</div>
+        <!--Transition Text-->
+
+    </div>
+    <!--/Page Transitions-->
+
+    <!-- Mouse Cursor -->
+    <div data-dark-circle="rgba(25,27,29,.6)" data-dark-dot="#191b1d" data-light-circle="hsla(0,0%,100%,.2)" data-light-dot="#fff" id="mouseCursor">
+        <div id="cursor"></div>
+        <div id="dot"></div>
+    </div>
+    <!-- /Mouse Cursor -->
+
+    <!-- Header -->
+    <div class="site-header">
+
+        <div class="header-wrapper">
+
+            <!-- Site Branding -->
+            <div class="site-branding">
+
+                <!-- Site Logos -->
+                <div class="site-logo">
+                    <a href="index.html">
+                        <img alt="Site Logo" class="dark-logo" src="image/dark_logo.png">
+                        <img alt="Site Logo Light" class="light-logo" src="image/white_logo.png">
+                    </a>
+                </div>
+                <!-- /Site Logos -->
+
+            </div>
+            <!-- /Site Branding -->
+
+            <!-- Menu Toggle Button (Don't touch) -->
+            <div class="menu-toggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </div>
+            <!-- /Menu Toggle Button (Don't touch) -->
+
+            <!-- Site Navigation -->
+            <div class="site-navigation">
+
+                <span class="sub-back"><i class="icofont-long-arrow-left"></i></span>
+
+                <!-- Main Menu -->
+                <ul class="menu main-menu">
+
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="about.html">About Me</a></li>
+                    <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a href="mailto:alexlandrin@hotmail.com">Contact</a></li>
+
+                </ul>
+                <!-- /Main Menu -->
+
+                <!-- Menu Widget (Left) -->
+                <div class="menu-widget menu-widget-left">
+                    <ul class="social-list">
+                         <li><a  href="https://www.instagram.com/alexlandrin_/">Instagram</a></li>
+                        <li><a  href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">LinkedIn</a></li>
+                        <li><a  href="https://www.behance.net/alexlandrin">Behance</a></li>
+                    </ul>
+
+                </div>
+                <!-- /Menu Widget (Left) -->
+
+                <!-- Menu Widget (Right) -->
+                <div class="menu-widget menu-widget-right">
+                    <div class="git-button">
+                        <a href="mailto:alexlandrin@hotmail.com">Get in touch!</a>
+                    </div>
+                </div>
+                <!-- /Menu Widget (Right) -->
+
+            </div>
+            <!-- /Site Navigation -->
+
+            <!-- Header Widgets -->
+            <div class="header-widgets">
+
+                <!-- Header Widget-->
+                <div class="header-widget">
+
+                    <!--CTA Widget-->
+                    <div class="header-cta-but">
+                        <a data-hover="Start a Project" href="mailto:alexlandrin@hotmail.com">
+                            Start a Project
+                        </a>
+                    </div>
+                    <!--CTA Widget-->
+
+                </div>
+                <!-- Header Widget-->
+            </div>
+            <!-- /Header Widgets -->
+
         </div>
 
-        <div class="header-content">
-    
-            <nav class="row header-nav-wrap">
-                <ul class="header-nav">
-                    <li><a  href="index.html" title="Home">Home</a></li>
-                    <li><a  href="services.html" title="Services">Services</a></li>
-                    <li><a  href="work.html" title="Work">My work</a></li>
-                    <li><a  href="about.html" title="About">About me</a></li>
-                    <li><a href="mailto:alexlandrin@hotmail.com" title="Contact Me">Contact me</a></li>
-                </ul>
-            </nav> <!-- end header-nav-wrap -->
+    </div>
+    <!-- /Header -->
 
-           <!-- <a href="#0" class="btn btn--stroke btn--small">Download CV</a>--> 
+    <!-- Page -->
+    <div id="page" data-barba="container">
+        <!-- Page Content -->
 
-        </div> <!-- end header-content -->
+        <div id="content" class="page-content">
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+            <!--Section-->
+            <div class="section no-margin">
 
-    </header> 
+                <!--Wrapper-->
+                <div class="wrapper-full no-gap no-margin">
 
+                    <!--Column-->
+                    <div class="c-col-12 no-gap no-margin">
 
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg-3000.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+                        <!--Personal Head-->
+                        <div data-animate="true" style="background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(11, 11, 11) 100%);" class="alioth-personal-head">
 
-        <div class="row hero-content">
-
-            <div class="column large-full">
-
-                <h1>
-                Brand Designer,<br>
-                Logo Designer,<br>
-                UI/UX Designer and Founder.
-                </h1>
-                <p> As a graphic designer, I bring creativity and technical expertise to every project.<br>
-                    With an eye for detail and a passion for design, I craft visually stunning graphics <br>
-                    that communicate ideas and tell stories.
-                </p>
-
-                <ul class="hero-social">
-                    <li>
-                        <a href="https://www.behance.net/alexlandrin" title="">Behance</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/landrin.de/" title="">instagram</a>
-                    </li>
-                    <li>
-                        <a href="https://www.tiktok.com/@landrin.de" title="">Tiktok</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/" title="">Linkedln</a>
-                    </li>
-                </ul> <!-- end hero-social -->
-
-            </div> 
-
-        </div> <!-- end hero-content -->
-
-        <div class="hero-scroll">
-            <a href="#about" class="scroll-link smoothscroll">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
-            </a>
-        </div> <!-- end hero-scroll -->
-
-    </section> <!-- end s-hero -->
+                            <!--Personal Image-->
+                            <div class="aph-image">
+                                <img alt="Personal Image" src="image/ipad2.png">
+                            </div>
+                            <!--/Personal Image-->
 
 
-   
-    <section id="portfolio" class="s-portfolio target-section">
+                            <!--Heading-->
+                            <div class="aph-name">
 
-        <div class="row s-portfolio__header">
-            <div class="column large-6 medium-8 tab-full">
-                <div class="section-intro"  data-aos="fade-up">
-                    <h3 class="subhead"></h3>
-                    <h1 class="display-1">
-                        A selection of recent projects I have worked on.
-                    </h1>
+                                <!--Front Text-->
+                                <span class="name-front">Alex</span>
+                                <!--/Front Text-->
+
+                                <!--Back Text-->
+                                <span class="name-back">Landrin</span>
+                                <!--/Back Text-->
+
+                            </div>
+                            <!--/Heading-->
+
+                            <!--Heading Sub Texts-->
+                            <div class="aph-details">
+
+                                <!--Welcome Text-->
+                                <div class="aph-welc">Hello, I'am</div>
+                                <!--/Welcome Text-->
+
+                                <!--Welcome Sub Text-->
+                                <div class="aph-sub-text"> I am a Brand Designer, Logo Designer, UI/UX Designer and Founder.
+                                </div>
+                                <!--/Welcome Sub Text-->
+
+                            </div>
+                            <!--/Heading Sub Texts-->
+
+                        </div>
+                        <!--/Personal Head-->
+
+                    </div>
+                    <!--/Column-->
+
                 </div>
+                <!--/Wrapper-->
+
             </div>
-        </div> <!-- s-porfolio__header -->
+            <!--/Section -->
 
-        <div class="row s-porfolio__list block-large-1-2 block-tab-full collapse">
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-squary.jpg" title="squary" data-size="1050x700">
-                            <img src="images/portfolio/squary.jpg" 
-                                 srcset="images/portfolio/squary.jpg 1x, images/portfolio/squary@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding</div>
-                        <h4 class="folio-item__title">Squary University</h4>
-                    </div>
-                    <a href="squary.html" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-omarion.jpg" title="Omarion" data-size="1050x700">
-                            <img src="images/portfolio/omarion.jpg" 
-                                 srcset="images/portfolio/omarion.jpg 1x, images/portfolio/omarion@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding Design</div>
-                        <h4 class="folio-item__title">Omarion</h4>
-                    </div>
-                    <a href="omarion.html" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    
-                </div>
-            </div> <!-- end column -->
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-eggencubator.jpg" title="Egg" data-size="1050x700">
-                            <img src="images/portfolio/eggencubator.jpg" 
-                                 srcset="images/portfolio/eggencubator.jpg 1x, images/portfolio/eggencubator@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">UI/UX Design</div>
-                        <h4 class="folio-item__title">Eggs Encubator</h4>
-                    </div>
-                    <a href="egg.html" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    
-                </div>
-            </div> <!-- end column -->
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-fastx.jpg" title="Fast X" data-size="1050x700">
-                            <img src="images/portfolio/fastx.jpg" 
-                                 srcset="images/portfolio/fastx.jpg 1x, images/portfolio/fastx@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">UI/UX Design</div>
-                        <h4 class="folio-item__title">Fast X</h4>
-                    </div>
-                    <a href="fastx.html" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    
-                </div>
-            </div> <!-- end column -->
-           
             
 
-        </div> <!-- folio-list -->
-
-    </section> <!-- end portfolio -->
-
-
-
-   
-
-
-    <section id="testimonials" class="s-testimonials">
-
-        <div class="row collapse">
-
-            <div class="column large-full">
-
-                <div class="testimonial-slider" data-aos="fade-up">
-                    
-
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            Working with Alex on our brand's logo was an absolute pleasure. 
-                            He took the time to understand our vision and brought it to life with his creativity 
-                            and unique design skills. Our new logo has received compliments from all of our clients 
-                            and has helped to solidify our brand identity. Thanks to him.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/profile.png" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Daniele Donkou</strong>
-                                <span>Gewurze Symphonie</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            My Company was in need of a new, fresh logo to represent the brand. Alex 
-                            did an exceptional job in creating a logo that perfectly captures the essence of our company. 
-                            The attention to detail and professionalism displayed throughout the process was greatly appreciated.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/profile 2.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Cristian Ortega</strong>
-                                <span>New Gen Roofing</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            I have worked with many graphic designers in the past, but Alex truly stands out. 
-                            The logo design for our brand was tailored specifically to meet our needs and exceeded our 
-                            expectations. Our customers love it, and it has helped us attract new business. Highly recommended!
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/profile.png" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong> John Doe</strong>
-                                <span>Pick Architect</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            As a start-up, having a strong and recognizable brand was critical to our success. Alex helped us 
-                            achieve just that with his exceptional logo design. The design was not only aesthetically 
-                            pleasing but also perfectly captured the spirit of our company. We couldn't be happier with the end result!
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/profile.png" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Bob Johnson</strong>
-                                <span>Mansa Architecture</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                </div> <!-- end testimonial slider -->
-                
-            </div> <!-- end column -->
-
-        </div> <!-- end row -->
-
-
-    </section> <!-- end s-testimonials -->
-
-
-
-  
-
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer h-dark-bg">
+            <div id="page" data-barba="container">
+                <!-- Page Content -->
+                <div id="content" class="page-content">
         
-        <div class="right-vert-line"></div>
-
-        <div class="row s-footer__main">
-            <div class="column large-6">
-                <div class="section-intro" data-aos="fade-up">
-                    <h3 class="subhead">Get In Touch</h3>
-
-                    <h1 class="display-1">
-                    Do you have an idea or a concept that excite you?
-                    Don't waste time and contact me.
-                    </h1>
-                </div>
-
-                <div class="footer-email-us">
-                    <a href="mailto:alexlandrin@hotmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
-                </div>
-            </div>
-
-            <div class="column large-5">
-                <div class="footer-contacts">
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        <h5 class="footer-contact-block__header">
-                            Email
-                        </h5>
-                        <p class="footer-contact-block__content">
-                            <a href="mailto:alexlandrin@hotmail.com">alexlandrin@hotmail.com</a>
-                        </p>
-                    </div> <!-- end footer-contact-block -->
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        <h5 class="footer-contact-block__header">
-                            Phone
-                        </h5>
-                        <p class="footer-contact-block__content">
-                            <a href="tel:+491774255685">+49 177 425 568 5</a>
-                        </p>
-                    </div> <!-- end footer-contact-block -->
-                    <br>
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        
-                        <ul class="footer-contact-block__list">
-                            <li><a href="https://www.behance.net/alexlandrin">Behance</a></li>
-                            <li><a href="https://www.instagram.com/landrin.de/">Instagram</a></li>
-                            <li><a href="https://www.tiktok.com/@landrin.de">Tiktok</a></li>
-                            <li><a href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">Linkdln</a></li>
-                        </ul>
-                    </div> <!-- end footer-contact-block -->
-                </div>
-            </div>
-        </div> <!-- end s-footer__main -->
-
-        <div class="row s-footer__bottom">
-            <div class="column large-full ss-copyright">
-                <span>© Copyright Landrin  2022</span> 
-                <span>Design by Alex Landrin </span>
-            </div> <!-- end ss-copyright -->
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
-                </a>
-            </div> <!-- end ss-go-top -->
-        </div> <!-- end s-footer__bottom -->
-
-    </footer> <!-- end s-footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+                    <!--Section-->
+                    <div class="section">
+        
+                        <!--Wrapper-->
+                        <div class="wrapper">
+        
+                            <!--Column-->
+                            <div class="c-col-12">
+        
+                                <!--Clients-->
+                                <div data-anim="true" class="alioth-clients column-4">
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/travelmate.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/techwave.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/archi.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/urbano.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/ignitec.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/timeless.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/opulence.png"></a></div>
+                                    <!--/Client-->
+        
+                                    <!--Client-->
+                                    <div class="a-client"><a href="#."><img alt="Client Logo" src="image/logo/soterial.png"></a></div>
+                                    <!--/Client-->
+                                </div>
+                                <!--/Clients-->
+        
                             </div>
+                            <!--/Column-->
+        
                         </div>
+                        <!--/Wrapper-->
+        
                     </div>
+                    <!--/Section -->
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
+                <!-- /Page Content -->
+        
             </div>
+
+            <div id="page" data-barba="container">
+
+                <!-- Page Header -->
+                <div data-anim="true" class="page-header">
+        
+                    <div class="page-header-wrap wrapper-small">
+        
+                        <!-- Page Title -->
+                        <div class="page-title">
+                            <h1 class="big-title">My Services</h1>
+                        </div>
+                        <!-- /Page Title -->
+        
+                    </div>
+        
+                </div>
+                <!-- /Page Header -->
+        
+                <!-- Page Content -->
+                <div id="content" class="page-content">
+        
+                    <!--Section-->
+                    <div class="section">
+        
+        
+                        <!--Wrapper-->
+                        <div class="wrapper">
+        
+                            <!--Column-->
+                            <div class="c-col-12">
+        
+                                <!--Alioth Services-->
+                                <div data-anim="true" class="alioth-services style_2">
+        
+                                    <!--Services Wrapper-->
+                                    <div class="services">
+        
+                                        <!--Service-->
+                                        <div class="service">
+        
+                                            <!--Service Title-->
+                                            <div class="service-title">Brand Identity</div>
+                                            <!--/Service Title-->
+        
+                                            <!--Service Toggle (Don't touch)-->
+                                            <div class="service-toggle">
+                                                <i class="icofont-thin-down"></i>
+                                            </div>
+                                            <!--/Service Toggle (Don't touch)-->
+        
+                                            <!--Service Content Wrapper-->
+                                            <div class="service-wrap">
+        
+                                                         <!--Service Content-->
+                                                <div class="service-cont">
+        
+                                                    <h2>I design visual systems that define and communicate a brand's personality, values, and positioning. I take a strategic approach to create unique and effective designs that align with the brand's goals and resonate with its target audience.
+                                                    </h2>
+                                                </div>
+                                                <!--/Service Content-->
+        
+                                            </div>
+                                            <!--/Service Content Wrapper-->
+        
+                                        </div>
+                                        <!--/Service-->
+        
+                                        <!--Service-->
+                                        <div class="service">
+        
+                                            <!--Service Title-->
+                                            <div class="service-title">Logo Design</div>
+                                            <!--/Service Title-->
+        
+                                            <!--Service Toggle (Don't touch)-->
+                                            <div class="service-toggle">
+                                                <i class="icofont-thin-down"></i>
+                                            </div>
+                                            <!--/Service Toggle (Don't touch)-->
+        
+                                            <!--Service Content Wrapper-->
+                                            <div class="service-wrap">
+        
+                                                 <!--Service Content-->
+                                                <div class="service-cont">
+        
+                                                    <h2>I create unique and effective visual identities for businesses and brands by designing logos that communicate the essence of the brand and resonate with its target audience. I use my skills in typography, color theory, and graphic design to craft memorable and timeless logos that align with the brand's goals.
+                                                    </h2>
+                                                </div>
+                                                <!--/Service Content-->
+        
+                                            </div>
+                                            <!--/Service Content Wrapper-->
+        
+                                        </div>
+                                        <!--/Service-->
+        
+                                        <!--Service-->
+                                        <div class="service">
+        
+                                            <!--Service Title-->
+                                            <div class="service-title">UI/UX Designer</div>
+                                            <!--/Service Title-->
+        
+                                            <!--Service Toggle (Don't touch)-->
+                                            <div class="service-toggle">
+                                                <i class="icofont-thin-down"></i>
+                                            </div>
+                                            <!--/Service Toggle (Don't touch)-->
+        
+                                            <!--Service Content Wrapper-->
+                                            <div class="service-wrap">
+        
+                                                         <!--Service Content-->
+                                                <div class="service-cont">
+        
+                                                    <h2>I create engaging and intuitive interfaces using a human-centered design approach that meets the needs and expectations of the user. I use research, wireframes, and prototypes to validate design decisions and ensure a positive impact on the user's experience.
+                                                    </h2>
+                                                </div>
+                                                <!--/Service Content-->
+        
+                                            </div>
+                                            <!--/Service Content Wrapper-->
+        
+                                        </div>
+                                        <!--/Service-->
+        
+                                    </div>
+                                    <!--/Services Wrapper-->
+        
+                                </div>
+                                <!--/Alioth Services-->
+        
+                            </div>
+                            <!--/Column-->
+        
+                        </div>
+                        <!--/Wrapper-->
+        
+        
+                    </div>
+                    <!--/Section -->
+        
+                </div>
+                <!-- /Page Content -->
+        
+            </div>
+            <!--Section-->
+            <div style="background: #131313; padding: 100px 0" class="section">
+
+                <!--Wrapper-->
+                <div class="wrapper">
+
+                    <!--Column-->
+                    <div class="c-col-4 has-parallax" data-parallax-direction="down" data-parallax-strength=".2">
+
+                        <!--Text Wrapper-->
+                        <div class="text-wrapper">
+
+                            <h1 class="has-anim big-title" data-stagger="0.01" data-duration="1.5" data-delay=".1" data-animation="charsUp">Latest Works</h1>
+                        </div>
+                        <!--/Text Wrapper-->
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-8">
+
+                        <!--Alioth Single Project-->
+                        <div class="alioth-single-project">
+
+                            <!--Project URL--><a href="squary.html">
+
+                                <!--Project Image-->
+                                <div class="sw-image">
+
+                                    <img alt="Project Image" src="image/squary/squary.png">
+
+
+                                </div>
+                                <!--/Project Image-->
+
+                                <!--Project Details-->
+                                <div class="sw-detail">
+
+                                    <!--Project Title-->
+                                    <div class="sw-title">Squary University</div>
+                                    <!--/Project Title-->
+
+                                    <!--Project Category-->
+                                    <div class="sw-cat">Branding</div>
+                                    <!--/Project Category-->
+
+                                </div>
+                                <!--/Project Details-->
+                            </a>
+
+                        </div>
+                        <!--/Alioth Single Project-->
+
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-6">
+
+                        <!--Alioth Single Project-->
+                        <div class="alioth-single-project">
+
+                            <!--Project URL--><a href="archi.html">
+
+                                <!--Project Image-->
+                                <div class="sw-image">
+
+                                    <img alt="Project Image" src="image/archi/logo.jpg">
+
+                                </div>
+                                <!--/Project Image-->
+
+                                <!--Project Details-->
+                                <div class="sw-detail">
+
+                                    <!--Project Title-->
+                                    <div class="sw-title">ArchiDesign</div>
+                                    <!--/Project Title-->
+
+                                    <!--Project Category-->
+                                    <div class="sw-cat">Branding</div>
+                                    <!--/Project Category-->
+
+                                </div>
+                                <!--/Project Details-->
+                            </a>
+
+                        </div>
+                        <!--/Alioth Single Project-->
+
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div data-parallax-strength="0.2" data-parallax-direction="down" class="c-col-6 has-parallax">
+
+                        <!--Alioth Single Project-->
+                        <div class="alioth-single-project">
+
+                            <!--Project URL--><a href="project-8.html">
+
+                                <!--Project Image-->
+                                <div class="sw-image">
+
+                                    <!--Project Video-->
+                                    <div class="showcase-video" data-plyr-provider="vimeo" data-plyr-embed-id="585710940"></div>
+                                    <!--/Project Video-->
+
+                                </div>
+                                <!--/Project Image-->
+
+                                <!--Project Details-->
+                                <div class="sw-detail">
+
+                                    <!--Project Title-->
+                                    <div class="sw-title">Blast</div>
+                                    <!--/Project Title-->
+
+                                    <!--Project Category-->
+                                    <div class="sw-cat">Production</div>
+                                    <!--/Project Category-->
+
+                                </div>
+                                <!--/Project Details-->
+                            </a>
+
+                        </div>
+                        <!--/Alioth Single Project-->
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-12 align-center">
+
+                        <span class="a-empty-space" style="height: 60px"></span>
+
+                        <!--Button-->
+                        <div class="a-button style_1 align-center">
+
+                            <!--Recent Works Button URL-->
+                            <a href="portfolio.html">All Projects</a>
+                            <!--/Recent Works Button URL-->
+
+                            <!--Recent Works Button Icon-->
+                            <i class="icofont-arrow-right"></i>
+                            <!--/Recent Works Button Icon-->
+
+                        </div>
+                        <!--/Button-->
+
+                    </div>
+                    <!--/Column-->
+
+                </div>
+                <!--/Wrapper-->
+
+            </div>
+            <!--/Section -->
+
+            <div id="page" data-barba="container">
+
+                <!-- Page Header -->
+                <div data-anim="true" class="page-header">
+        
+                    <div class="page-header-wrap wrapper-small">
+        
+                        <!-- Page Title -->
+                        <div class="page-title">
+                            <h1 class="big-title">Latest Clients</h1>
+                        </div>
+                        <!-- /Page Title -->
+        
+                    </div>
+        
+                </div>
+                <!-- /Page Header -->
+        
+                <!-- Page Content -->
+                <div id="content" class="page-content">
+                    <!--Section-->
+                    <div class="section no-margin">
+        
+                        <!--Wrapper-->
+                        <div class="wrapper-small">
+        
+                            <!--Column-->
+                            <div class="c-col-12">
+        
+                                <!--Testimonials-->
+                                <div class="a-testimonials autoplay light">
+        
+                                    <!--Testimonals Controls (Don't touch)-->
+                                    <div class="a-testimonals-control">
+                                        <span class="a-test-prev"><i class="icofont-thin-left"></i></span>
+                                        <div class="a-test-frac">
+                                            <span class="a-test-current">01</span>
+                                            <div class="a-testimonials-count"><span></span></div>
+                                            <span class="a-test-total"></span>
+                                        </div>
+                                        <span class="a-test-next"><i class="icofont-thin-right"></i></span>
+                                    </div>
+                                    <!--/Testimonals Controls (Don't touch)-->
+        
+                                    <!--Testimonals Wrapper-->
+                                    <div class="a-testimonials-wrapper">
+        
+                                        <!--Testimonal-->
+                                        <div class="a-testimonial">
+        
+                                            <!--Testimonal Text-->
+                                            <div class="testimonial-text">“I have worked with many graphic designers in the past, but Alex truly stands out. The logo design for our brand was tailored specifically to meet our needs and exceeded our expectations. Our customers love it, and it has helped us attract new business. Highly recommended!”</div>
+                                            <!--/Testimonal Text-->
+        
+                                            <!--Testimonal Meta-->
+                                            <div class="testimonial-meta">
+        
+                                                <!--Testimonial Name-->
+                                                <div class="testimonial-name">Pick Architecture - CEO</div>
+                                                <!--/Testimonial Name-->
+        
+                                                <!--Testimonial Brand-->
+                                                <div class="testimonial-brand">John Doe</div>
+                                                <!--/Testimonial Brand-->
+        
+                                            </div>
+                                            <!--/Testimonal Meta-->
+        
+                                        </div>
+                                        <!--/Testimonal-->
+        
+                                        <!--Testimonal-->
+                                        <div class="a-testimonial">
+        
+                                            <!--Testimonal Text-->
+                                            <div class="testimonial-text">“My Company was in need of a new, fresh logo to represent the brand. Alex did an exceptional job in creating a logo that perfectly captures the essence of our company. The attention to detail and professionalism displayed throughout the process was greatly appreciated.”</div>
+                                            <!--/Testimonal Text-->
+        
+                                            <!--Testimonal Meta-->
+                                            <div class="testimonial-meta">
+        
+                                                <!--Testimonial Name-->
+                                                <div class="testimonial-name">New Gen Roofing</div>
+                                                <!--/Testimonial Name-->
+        
+                                                <!--Testimonial Brand-->
+                                                <div class="testimonial-brand">Cristian Ortega</div>
+                                                <!--/Testimonial Brand-->
+        
+                                            </div>
+                                            <!--/Testimonal Meta-->
+        
+                                        </div>
+                                        <!--/Testimonal-->
+        
+                                        <!--Testimonal-->
+                                        <div class="a-testimonial">
+        
+                                            <!--Testimonal Text-->
+                                            <div class="testimonial-text">“Working with Alex on our brand's logo was an absolute pleasure. He took the time to understand our vision and brought it to life with his creativity and unique design skills. Our new logo has received compliments from all of our clients and has helped to solidify our brand identity. Thanks to him.”</div>
+                                            <!--/Testimonal Text-->
+        
+                                            <!--Testimonal Meta-->
+                                            <div class="testimonial-meta">
+        
+                                                <!--Testimonial Name-->
+                                                <div class="testimonial-name">Gewurze Symphonie</div>
+                                                <!--/Testimonial Name-->
+        
+                                                <!--Testimonial Brand-->
+                                                <div class="testimonial-brand">Daniel Donkou</div>
+                                                <!--/Testimonial Brand-->
+        
+                                            </div>
+                                            <!--/Testimonal Meta-->
+        
+                                        </div>
+                                        <!--/Testimonal-->
+        
+                                    </div>
+                                    <!--/Testimonals Wrapper-->
+        
+        
+                                </div>
+                                <!--/Testimonials-->
+        
+                            </div>
+                            <!--/Column-->
+        
+                        </div>
+                        <!--/Wrapper-->
+        
+                    </div>
+                    <!--/Section -->
+                </div>
+                <!-- /Page Content -->
+        
+            </div>
+
+         
+
+            <!--Section -->
+            <div class="section">
+
+                <!--Wrapper-->
+                <div class="wrapper-full no-margin">
+
+                    <!--Column-->
+                    <div class="c-col-12 no-gap no-margin">
+
+                        <!-- Page Nav -->
+                        <div class="alioth-page-nav" style="background-color: #101010">
+
+                            <!--Page URL-->
+                            <a href="about.html">
+
+                                <!-- Page Title -->
+                                <div class="page-title">About Me</div>
+                                <!-- /Page Title -->
+
+                                <!-- Page Sub-Title -->
+                                <div class="page-sub-title">Something more about me.</div>
+                                <!-- /Page Sub-Title -->
+
+                            </a>
+
+                        </div>
+                        <!-- /Page Nav -->
+
+                    </div>
+                    <!--/Column-->
+
+                </div>
+                <!--/Wrapper-->
+
+            </div>
+            <!--/Section -->
+
 
         </div>
+        <!-- /Page Content -->
 
-    </div> <!-- end photoSwipe background -->
+    </div>
+    <!-- /Page -->
 
+    <!-- Site Footer -->
+    <div id="footer" class="site-footer section">
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Footer Wrapper (Top) -->
+        <div class="wrapper">
+
+            <!-- Footer Branding -->
+            <div class="c-col-6 footer-widget footer_brand">
+
+                <!-- Footer Logo -->
+                <div class="footer-logo">
+                    <img alt="Footer Logo" src="image/footer_logo.png">
+                </div>
+                <!-- Footer Logo -->
+
+                <!-- Copyright -->
+                <div class="copyright-text">
+                    2023©
+                </div>
+                <!--/ Copyright -->
+
+            </div>
+            <!--/ Footer Branding -->
+
+            <!-- Footer Widget -->
+            <div class="c-col-3 footer-widget">
+
+                <!-- Socials Widget -->
+                <div class="social-list-widget">
+                    <ul>
+                        <li><a target="_blank" href="https://www.instagram.com/alexlandrin_/">Instagram</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">LinkedIn</a></li>
+                        <li><a target="_blank" href="https://www.behance.net/alexlandrin">Behance</a></li>
+                    </ul>
+                </div>
+                <!--/ Socials Widget -->
+
+            </div>
+            <!--/ Footer Widget -->
+
+        </div>
+        <!--/ Footer Wraper (Top) -->
+
+        <!-- Footer Wraper (Bottom) -->
+        <div class="wrapper">
+
+            <!-- Footer Widget -->
+            <div class="c-col-6 footer-widget footer_cta">
+
+                <!-- CTA -->
+                <div class="big-button">
+                    <a href="mailto:alexlandrin@hotmail.com">alexlandrin@hotmail.com</a>
+                </div>
+                <!--/ CTA -->
+
+            </div>
+            <!--/ Footer Widget -->
+        </div>
+        <!-- Footer Wraper (Bottom) -->
+
+    </div>
+    <!-- /Site Footer -->
+
+    <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/barba.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
+
+</html>

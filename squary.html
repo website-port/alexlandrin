@@ -1,225 +1,484 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
-    <head>
+<head>
+    <meta charset="utf-8">
 
-        <!--- basic page needs
-        ================================================== -->
-        <meta charset="utf-8">
-        <title>Njonkoua Landrin | MNN Bank</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
-    
-        <!-- mobile specific metas
-        ================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- CSS
-        ================================================== -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/vendor.css">
-    
-        <!-- script
-        ================================================== -->
-        <script src="js/modernizr.js"></script>
-    
-        <!-- favicons
-        ================================================== -->
-        <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-	    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-	    <link rel="manifest" href="favicons/manifest.json">
-	    <meta name="msapplication-TileColor" content="#ffffff">
-	    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	    <meta name="theme-color" content="#ffffff">
-    
-    </head>
+    <!-- Page Title -->
+    <title>Squary University - Alex Landrin</title>
+    <!--/ Page Title -->
 
-<body id="top">
+    <meta name="author" content="Pe Themes">
+    <meta name="description" content="Creative Portfolio & Agency Template">
+    <meta name="keywords" content="portfolio, agency, personal, creative">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <!--/ Favicons -->
+</head>
 
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+<body data-barba="wrapper" data-cursor="true" data-header-sticky="true" data-menu-style="overlay" data-page-layout="dark" data-header-layout="light" data-menu-layout="dark" data-footer-layout="dark" data-page-loader="true">
+
+    <!--Page Loader-->
+    <div data-duration="1" class="alioth-page-loader" data-layout="dark">
+
+        <span class="apl-background"></span>
+
+        <!--Loader Percentage (Don't Touch)-->
+        <div class="apl-count"></div>
+        <!--Loader Percentage (Don't Touch)-->
+
     </div>
+    <!--/Page Loader-->
 
+    <!--Page Transitions-->
+    <div class="alioth-page-transitions" data-layout="dark">
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+        <!--Transition Background (Don't touch)-->
+        <span class="apt-bg"></span>
+        <!--/Transition Background (Don't touch)-->
 
-        <div class="header-logo">
-            <a href="index.html">
-                <img src="images/landrin.svg" alt="Homepage">
-            </a>
-        </div>
+        <!--Transition Text-->
+        <div class="trans-text">Loading, please wait..</div>
+        <!--Transition Text-->
 
-        <div class="header-content">
-    
-            <nav class="row header-nav-wrap">
-                <ul class="header-nav">
-                    <li><a  href="index.html" title="Home">Home</a></li>
-                    <li><a  href="services.html" title="Services">Services</a></li>
-                    <li><a  href="work.html" title="Work">My work</a></li>
-                    <li><a  href="about.html" title="Works">About me</a></li>
-                    <li><a href="mailto:alexlandrin@hotmail.com" title="Contact Me">Contact me</a></li>
+    </div>
+    <!--/Page Transitions-->
+
+    <!-- Mouse Cursor -->
+    <div data-dark-circle="rgba(25,27,29,.6)" data-dark-dot="#191b1d" data-light-circle="hsla(0,0%,100%,.2)" data-light-dot="#fff" id="mouseCursor">
+        <div id="cursor"></div>
+        <div id="dot"></div>
+    </div>
+    <!-- /Mouse Cursor -->
+
+    <!-- Header -->
+    <div class="site-header">
+
+        <div class="header-wrapper">
+
+            <!-- Site Branding -->
+            <div class="site-branding">
+
+                <!-- Site Logos -->
+                <div class="site-logo">
+                    <a href="index.html">
+                        <img alt="Site Logo" class="dark-logo" src="image/dark_logo.png">
+                        <img alt="Site Logo Light" class="light-logo" src="image/white_logo.png">
+                    </a>
+                </div>
+                <!-- /Site Logos -->
+
+            </div>
+            <!-- /Site Branding -->
+
+            <!-- Menu Toggle Button (Don't touch) -->
+            <div class="menu-toggle">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </div>
+            <!-- /Menu Toggle Button (Don't touch) -->
+
+            <!-- Site Navigation -->
+            <div class="site-navigation">
+
+                <span class="sub-back"><i class="icofont-long-arrow-left"></i></span>
+
+                <!-- Main Menu -->
+                <ul class="menu main-menu">
+
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="about.html">About Me</a></li>
+                    <li class="menu-item"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="menu-item"><a href="mailto:alexlandrin@hotmail.com">Contact</a></li>
+
                 </ul>
-            </nav> <!-- end header-nav-wrap -->
+                <!-- /Main Menu -->
 
-           <!-- <a href="#0" class="btn btn--stroke btn--small">Download CV</a>--> 
+                <!-- Menu Widget (Left) -->
+                <div class="menu-widget menu-widget-left">
+                    <ul class="social-list">
+                         <li><a  href="https://www.instagram.com/alexlandrin_/">Instagram</a></li>
+                        <li><a  href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">LinkedIn</a></li>
+                        <li><a  href="https://www.behance.net/alexlandrin">Behance</a></li>
+                    </ul>
 
-        </div> <!-- end header-content -->
-
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> 
-
-
-
-    <section id="about" class="s-about target-section">
-    
-    <img src="images/squary/squary.jpg" 
-    srcset="images/squary/squary.jpg 1000w, 
-    images/squary/squary.jpg 500w" 
-    sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-    
-    </section> <!-- end s-about -->
-
-        
-     
-
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer h-dark-bg">
-        
-        <div class="right-vert-line"></div>
-
-        <div class="row s-footer__main">
-            <div class="column large-6">
-                <div class="section-intro" data-aos="fade-up">
-                    <h3 class="subhead">Get In Touch</h3>
-
-                    <h1 class="display-1">
-                    Do you have an idea or a concept that excite you?
-                    Don't waste time and contact me.
-                    </h1>
                 </div>
+                <!-- /Menu Widget (Left) -->
 
-                <div class="footer-email-us">
-                    <a href="mailto:alexlandrin@hotmail.com" class="btn btn--primary h-full-width">Let's Talk</a>
-                </div>
-            </div>
-
-            <div class="column large-5">
-                <div class="footer-contacts">
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        <h5 class="footer-contact-block__header">
-                            Email
-                        </h5>
-                        <p class="footer-contact-block__content">
-                            <a href="mailto:alexlandrin@hotmail.com">alexlandrin@hotmail.com</a>
-                        </p>
-                    </div> <!-- end footer-contact-block -->
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        <h5 class="footer-contact-block__header">
-                            Phone
-                        </h5>
-                        <p class="footer-contact-block__content">
-                            <a href="tel:+491774255685">+49 177 425 568 5</a>
-                        </p>
-                    </div> <!-- end footer-contact-block -->
-                    <br>
-                    <div class="footer-contact-block" data-aos="fade-up">
-                        
-                        <ul class="footer-contact-block__list">
-                            <li><a href="https://www.behance.net/alexlandrin">Behance</a></li>
-                            <li><a href="https://www.instagram.com/landrin.de/">Instagram</a></li>
-                            <li><a href="https://www.tiktok.com/@landrin.de">Tiktok</a></li>
-                            <li><a href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">Linkdln</a></li>
-                        </ul>
-                    </div> <!-- end footer-contact-block -->
-                </div>
-            </div>
-        </div> <!-- end s-footer__main -->
-
-        <div class="row s-footer__bottom">
-            <div class="column large-full ss-copyright">
-                <span>© Copyright Landrin  2022</span> 
-                <span>Design by Alex Landrin </span>
-            </div> <!-- end ss-copyright -->
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
-                </a>
-            </div> <!-- end ss-go-top -->
-        </div> <!-- end s-footer__bottom -->
-
-    </footer> <!-- end s-footer -->
-
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
+                <!-- Menu Widget (Right) -->
+                <div class="menu-widget menu-widget-right">
+                    <div class="git-button">
+                        <a href="mailto:alexlandrin@hotmail.com">Get in touch!</a>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
+                <!-- /Menu Widget (Right) -->
+
             </div>
+            <!-- /Site Navigation -->
+
+            <!-- Header Widgets -->
+            <div class="header-widgets">
+
+                <!-- Header Widget-->
+                <div class="header-widget">
+
+                    <!--CTA Widget-->
+                    <div class="header-cta-but">
+                        <a data-hover="Start a Project" href="mailto:alexlandrin@hotmail.com">
+                            Start a Project
+                        </a>
+                    </div>
+                    <!--CTA Widget-->
+
+                </div>
+                <!-- Header Widget-->
+            </div>
+            <!-- /Header Widgets -->
 
         </div>
 
-    </div> <!-- end photoSwipe background -->
+    </div>
+    <!-- /Header -->
+
+    <!-- Page -->
+    <div id="page" class="project-page" data-barba="container" data-barba-namespace="pph1">
+
+        <!-- Project Page Header -->
+        <div data-animate="true" class="project-page-header style_1">
+
+            <!-- Project Header Image -->
+            <div class="project-fetaured-image">
+
+                <img alt="Project Featured Image" src="image/squary/cover.png">
+
+            </div>
+            <!-- /Project Header Image -->
+
+            <!-- Project Details -->
+            <div class="project-details">
+
+                <!-- Project Title & Cat -->
+                <div class="project-title">
+
+                    <!-- Project Title -->
+                    <h1 class="big-title">Squary University</h1>
+                    <!-- Project Title -->
+
+                </div>
+                <!-- /Project Title & Cat -->
+
+                <!-- Project Metas -->
+                <div class="project-metas">
+
+                    <!-- Project Meta -->
+                    <div class="project-meta project-cats">
+
+                        <!-- Project Cats-->
+                        <div class="project-cat">Branding</div>
+                        <!-- /Project Cats-->
+
+                    </div>
+                    <!-- /Project Meta -->
+
+                    <!-- Project Meta -->
+                    <div class="project-meta meta-summary">
+
+                        <!-- Meta Content-->
+                        <h5>Square University is a prestigious institution of higher learning that offers a wide range of un dergraduate and graduate degree programs in a variety of fields. Known for its strong academic programs, world-class faculty, and state-of-the-art facilities, Square University is dedicated to providing students with a comprehensive education that prepares them for successful careers. The university is also committed to fostering a diverse and inclusive community of learners, promoting scholarship and research, and fostering innovation and creativity. With a vibrant campus life and a strong sense of community, Square University is a great choice for students looking to take the next step in their education and to make a positive impact on the world.</h5>
+                        <!-- /Meta Content-->
+
+                    </div>
+                    <!-- /Project Meta -->
+
+                    <!-- Project Meta -->
+                    <div class="project-meta project-other">
+
+                        <h5>2023</h5>
+
+                    </div>
+                    <!-- /Project Meta -->
+
+                </div>
+                <!-- /Project Metas -->
+
+            </div>
+            <!-- Project Details -->
+
+        </div>
+        <!-- /Project Page Header -->
+
+        <!-- Page Content -->
+        <div id="content" class="page-content">
+            <!--Section-->
+            <div class="section">
+
+                 <!--Wrapper-->
+                 <div class="wrapper">
+
+                    <!--Column-->
+                    <div class="c-col-6">
+
+                        <!--Single Image-->
+                        <div data-lightbox="image/squary/law-png" class="single-image">
+
+                            <img data-animation="blockUp" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" alt="Single Image" src="image/squary/law.png">
+
+                        </div>
+                        <!--/Single Image-->
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-6">
+
+                        <!--Single Image-->
+                        <div data-lightbox="image/squary/health.png" class="single-image">
+
+                            <img data-animation="blockUp" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" alt="Single Image" src="image/squary/health.png">
+
+                        </div>
+                        <!--/Single Image-->
+
+                    </div>
+                    <!--/Column-->
+                    <!--Column-->
+                    <div class="c-col-6">
+
+                        <!--Single Image-->
+                        <div data-lightbox="image/squary/health.png" class="single-image">
+
+                            <img data-animation="blockUp" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" alt="Single Image" src="image/squary/arts.png">
+
+                        </div>
+                        <!--/Single Image-->
+
+                    </div>
+                    <!--/Column-->
+
+                    <!--Column-->
+                    <div class="c-col-6">
+
+                        <!--Single Image-->
+                        <div data-lightbox="image/squary/health.png" class="single-image">
+
+                            <img data-animation="blockUp" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" alt="Single Image" src="image/squary/science.png">
+
+                        </div>
+                        <!--/Single Image-->
+
+                    </div>
+                    <!--/Column-->
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+
+                </div>
+                <!--/Wrapper-->
+
+                
+             <!--Wrapper-->
+             <div class="wrapper">
+
+                <!--Column-->
+                <div class="c-col-12">
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/Page .png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <span class="a-empty-space" style="height: 25px"></span>
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/grids.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/faculty.png">
+
+                    </div>
+                    <!--/Single Image-->
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/propectus.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/poster.png">
+
+                    </div>
+                    <!--/Single Image-->
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/Book.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/dance.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/banner.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/brief.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/poster 2.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/pin.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/wall.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                    <!--Single Image-->
+                    <div class="single-image">
+
+                        <img alt="Single Image" data-animation="blockLeft" data-duration="1.5" data-delay="0" data-color="#000" class="has-anim" src="image/squary/presentation.png">
+
+                    </div>
+                    <!--/Single Image-->
+
+                </div>
+                <!--/Column-->
+
+            </div>
+            <!--/Wrapper-->
+
+            </div>
+            <!--/Section -->
+
+        </div>
+        <!-- /Page Content -->
+    </div>
+    <!-- /Page -->
+
+    <!-- Site Footer -->
+    <div id="footer" class="site-footer section">
+
+        <!-- Footer Wrapper (Top) -->
+        <div class="wrapper">
+
+            <!-- Footer Branding -->
+            <div class="c-col-6 footer-widget footer_brand">
+
+                <!-- Footer Logo -->
+                <div class="footer-logo">
+                    <img alt="Footer Logo" src="image/footer_logo.png">
+                </div>
+                <!-- Footer Logo -->
+
+                <!-- Copyright -->
+                <div class="copyright-text">
+                    2023©
+                </div>
+                <!--/ Copyright -->
+
+            </div>
+            <!--/ Footer Branding -->
+
+            <!-- Footer Widget -->
+            <div class="c-col-3 footer-widget">
+
+                <!-- Socials Widget -->
+                <div class="social-list-widget">
+                    <ul>
+                        <li><a target="_blank" href="https://www.instagram.com/alexlandrin_/">Instagram</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/alex-landrin-njonkoua-807309190/">LinkedIn</a></li>
+                        <li><a target="_blank" href="https://www.behance.net/alexlandrin">Behance</a></li>
+                    </ul>
+                </div>
+                <!--/ Socials Widget -->
+
+            </div>
+            <!--/ Footer Widget -->
+
+        </div>
+        <!--/ Footer Wraper (Top) -->
+
+        <!-- Footer Wraper (Bottom) -->
+        <div class="wrapper">
+
+            <!-- Footer Widget -->
+            <div class="c-col-6 footer-widget footer_cta">
+
+                <!-- CTA -->
+                <div class="big-button">
+                    <a href="mailto:alexlandrin@hotmail.com">alexlandrin@hotmail.com</a>
+                </div>
+                <!--/ CTA -->
+
+            </div>
+            <!--/ Footer Widget -->
+        </div>
+        <!-- Footer Wraper (Bottom) -->
+
+    </div>
+    <!-- /Site Footer -->
+
+    <script src="js/jquery.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/barba.js"></script>
+    <script src="js/locomotive-scroll.min.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
+
+</html>
