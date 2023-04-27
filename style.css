@@ -8104,7 +8104,7 @@ body.dark .aph-sub-text,
 .alioth-personal-header.dark .aph-sub-text,
 .alioth-personal-header.dark .aph-welc,
 body.dark .aph-welc {
-    color: hsla(0, 0%, 100%, .4)
+    color: hsl(0, 0%, 100%)
 }
 
 
